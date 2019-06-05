@@ -1,1 +1,246 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 62.5%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+}
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 45%;
+  padding: 1.5rem;
+  font-size: 0.8rem;
+}
+header nav a {
+  text-decoration: none;
+}
+.container-top {
+  border-radius: 0.25rem;
+  width: 85%;
+  height: 35%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #e9ecef;
+}
+.container-top .profile-pic {
+  width: 15rem;
+  height: 15rem;
+  margin-top: 2.5rem;
+  margin-left: 1.5rem;
+}
+.container-top-text {
+  margin: 1.5rem;
+}
+.container-top-text h1 {
+  font-size: 2.5rem;
+}
+.container-top-text hr {
+  width: 100%;
+  border: gray 0.016rem solid;
+  opacity: 0.25;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.container-top-text p {
+  font-size: 0.9rem;
+}
+.container-top-text .team-btn {
+  background-color: gray;
+  color: white;
+  border-radius: 0.2rem;
+  margin-top: 1rem;
+  width: 18%;
+  height: 25%;
+  font-size: 1rem;
+}
+.containermiddle {
+  width: 85%;
+  margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.containermiddle h1 {
+  font-size: 1.5rem;
+}
+.containermiddle div {
+  width: 47%;
+}
+.containermiddle li {
+  border: gray 1px solid;
+  width: 100%;
+  padding: 0.5rem;
+}
+.ul2 {
+  display: flex;
+  flex-direction: column;
+}
+.ul2 li {
+  display: flex;
+  flex-direction: row;
+  height: 2rem;
+  align-content: center;
+}
+.ul2 .ligray {
+  background-color: #e9ecef;
+  color: black;
+}
+.workhistory {
+  width: 85%;
+  margin: auto;
+}
+.workhistory h1 {
+  font-size: 1.5rem;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 85%;
+  height: 4rem;
+  margin: auto;
+  padding: 1rem;
+  background-color: gray;
+  color: white;
+}
