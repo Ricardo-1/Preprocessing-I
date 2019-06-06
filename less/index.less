@@ -52,123 +52,159 @@ table {
 * {
     box-sizing: border-box;
 }
-@light-gray: #e9ecef;
+
 html, body {
     height: 100%;
 }
-header{
-	display: flex;
+
+// FONT SIZE CHANGED TO 62.5% Rest of CSS is Below//
+
+@lightgray:#e9ecef;
+
+.navdiv{
+	width:90%;
+	margin:auto;
+	padding-top:1rem;
+	padding-bottom:1rem;
+	display:flex;
 	flex-direction: row;
 	justify-content: flex-end;
-	width: 100%;
+	
 	nav{
 		display: flex;
 		flex-direction: row;
-		justify-content: space-evenly;
-		width: 45%;
-		padding: 1.5rem;
-		font-size: .8rem;
+		justify-content: space-around;
+		width: 30%;
+		font-size: 1rem;
+		
 		a{
+			margin:.2rem;
 			text-decoration: none;
 		}
 	}
 }
-.container-top{
-	border-radius: .25rem;
-	width: 85%;
-	height:35%;
+
+.topcontainer{
+	width:90%;
+	height: 47%;
+	background-color: @lightgray;
 	margin: auto;
-	display: flex;
+	border-radius: 1%;
+	display:flex;
 	flex-direction: column;
-	background-color:@light-gray;
-	.profile-pic{
-		width:15rem;
-		height:15rem;
-		margin-top:2.5rem;
-		margin-left:1.5rem;
+	
+	div{
+		width:95%;
+		height: 95%;
+		margin:auto;
+		padding-top: 1.75rem;
 	}
-}
-.container-top-text{
-	margin:1.5rem;
+	.profilepic{
+		height:50%;
+		width:30%;
+	}
+
 	h1{
-		font-size: 2.5rem;
+		font-size: 3rem;
+		padding-top:1rem;
+		padding-bottom: .5rem;
 	}
+
+	.p2{
+		font-size:1rem;
+		padding-bottom:1rem;
+	}
+	.p1{
+		font-size:1.2rem;
+		padding-bottom:1rem;
+	}
+
 	hr{
-		width:100%;
-		border: gray .016rem solid;
-		opacity: .25;
-		margin-top:1rem;
-		margin-bottom:1rem;
-	}	
-	p{
-		font-size: .9rem;
+		color: gray;
+		opacity: .2;
+		margin-bottom: 1rem;
 	}
-	.team-btn{
+	button{
 		background-color: gray;
 		color: white;
-		border-radius: .2rem;
-		margin-top:1rem;
-		width: 18%;
-		height: 25%;
-		font-size: 1rem;
+		font-size: 1.2rem;
+		border-radius:3px;
+		padding:.5rem;
 	}
 }
-.containermiddle{
-	
-	width:85%;
+.bottomcontainer{
+	width:90%;
+	height:50%;
 	margin:auto;
-	padding-top: 2rem;
-	padding-bottom: 1rem;
+	padding-top:1rem;
+	h1{
+		font-size: 2rem;
+	}
+	
+	.bottomtop{
+	height:45%;
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
 	justify-content: space-between;
+	.left{
+		width:45%;
+	}
+	.right{
+		width:45%;
+		h1{
+			font-size: 1.5rem;
+		}
+
+		div{
+			border:1px gray solid;
+			border-radius: 4px;
+		}
+		.listitem{
+			border-bottom: gray 1px solid;
+			font-size: 1.1rem;
+			padding-top: .5rem;
+			padding-bottom: .5rem;
+			padding-left: 2rem;
+		}
+	}
+	}
+
+
+	.bottombottom{
+	height: 45%;
 	h1{
 		font-size: 1.5rem;
 	}
-	div{
-		width: 47%;
-
 	}
-	li{
-		border: gray 1px solid;
-		width: 100%;
-		padding: .5rem;
+	table{
+		width:100%;
+		.grayrow{
+			background-color: @lightgray;
+		}
 	}
+	th{
+		
+		text-align: left;
+		padding: 1rem;
+	  }
+	 td{
+		
+		text-align: left;
+		padding:1rem;
+	 } 
+	 tr{
+		 border-top: 1px solid #dddddd;
+	 }
 
 }
-.ul2{
-	display: flex;
-	flex-direction:column;
-
-	li{
-		display: flex;
-		flex-direction: row;
-		height:2rem;
-		align-content: center
-	}
-
-	.ligray{
-		background-color: @light-gray;
-		color:black;
-	}
-}
-.workhistory{
-	width:85%;
-	margin:auto;
-
-	h1{
-		font-size:1.5rem;
-	}
-}
-.footer{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	width:85%;
+footer{
+	background-color: gray;
+	color:white;
 	height:4rem;
 	margin:auto;
-	padding:1rem;
-	background-color: gray;
-	color: white;
+	padding-top:1rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
 }

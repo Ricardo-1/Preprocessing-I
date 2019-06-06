@@ -1,77 +1,104 @@
 <!doctype html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-
-  <title>My Resume</title>
-
-  <link rel="stylesheet" href="css/index.css">
-
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
-</head>
-
-<body>
-  <header>
-    <nav>
-      <a href="">Home</a>
-      <a href="">About</a>
-      <a href="">Portfolio</a>
-      <a href="">Contact</a>
-    </nav>
-  </header>
-  <div class="container-top">
-    <img class="profile-pic" src="https://images.unsplash.com/photo-1515266591878-f93e32bc5937?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80>">
-      <div class="container-top-text">
-        <h1>Ricardo Solorio - Future Web Dev</h1>
-        <p>
-          I like tech just like Johnny Appleseed
-        </p>
-        <hr>
-        <p>
-          Stuff goes in here. Usually bragging kind of stuff about who you are and what you can do. Really people write about what they think they are able to do. usually because they arent happy at their current job. Obviously if they were happy they wouldnt be working on their resume.
-        </p>
-        <button class="team-btn">Lets Team Up</button>
+  <head>
+    <meta charset="utf-8">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="css/index.css">
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header>
+      <div class="navdiv">
+        <nav>
+          <a href="">Home</a>
+          <a href="">About</a>
+          <a href="">Portfolio</a>
+          <a href="">Contact</a>
+        </nav>
+      </div>
+        
+    </header>
+    <div class="topcontainer">
+      <div>
+          <img class="profilepic" src="https://images.unsplash.com/photo-1496850574977-a4607106a874?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1834&q=80">
+          <h1>Ricardo Solorio - Software Engineer</h1>
+          <p class="p1">Technology is my jam!</p>
+          <hr>
+          <p class="p2">
+            Occasionaly I have time to work on side projects. If you're interested let me know by signing up with this website.
+          </p>
+          <button>Lets Team Up</button>
       </div>
     </div>
-  <div class="containermiddle">
-    <div>
-    <h1>Listen....</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-  </div>
-  <div>
-    <h1>Stuff I'm Good At:</h1>
-    <p>
-      <ul>
-        <li>disk golf</li>
-        <li>Coding up UI</li>
-        <li>Playing lots of video games</li>
-        <li>Using bootstrap grid</li>
-        <li>Taking long naps</li>
-      </ul>
-    </p>
-  </div>
-  </div>  
- <div class="workhistory">
-   <h1>Work History</h1>
-   <p>
-     <ul class="ul2">
-      <li>Yrs Company Title TechUsed </li>
-      <li class="ligray">1 Apple Software Engineer Swift</li>
-      <li>2 Microsoft Computer Scientist .NET</li>
-      <li class="ligray">3 Amazon Dev Ops AWS</li>
-    </ul>
-  </p>
- </div>
-  
-</div>
-  
-</body>
-<footer class="footer">
-Copyright Awesomeness 2018
-</footer>
+    <div class="bottomcontainer">
+       
+        <div class="bottomtop">
+          <div class="left">
+            <h1>Listen Up...</h1>
+            <br>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisis sed odio morbi quis commodo odio aenean. Tellus mauris a diam maecenas sed enim ut sem viverra. Quam id leo in vitae turpis massa sed elementum. Ac orci phasellus egestas tellus rutrum tellus. Dui vivamus arcu felis bibendum ut tristique etleo in vitae turpis massa sed elementum. Sollicitudin ac orci phasellus egestas tellus vitae turpis massa sed elementum. Sollicitudin ac orci phasellus egestas tellus vitae turpis massa sed elementum. Sollicitudin ac orci phasellus egestas tellus 
+            </p>
+          </div>
+          <div class="right">
+              <h1>What Im Good At:</h1>
+              <br>
+              <p>
+                  <div>
+                    <ul>
+                      <li class="listitem">Disk golf</li>
+                      <li class="listitem">Coding up UI</li>
+                      <li class="listitem">Playing lots of video games</li>
+                      <li class="listitem">Using bootstrap grid</li>
+                      <li class="listitem">Taking long naps</li>
+                    </ul>
+                  </div>
+              </p>
+            </div>
+        </div>
+
+        <div class="bottombottom">
+            <h1>Work History</h1>
+            <br>
+            <table>
+                <tr>
+                  <th>Yrs</th>
+                  <th>Company</th>
+                  <th>Title</th>
+                  <th>Tech Used</th>
+                </tr>
+                <tr class="grayrow">
+                  <td>1</td>
+                  <td>Apple</td>
+                  <td>Software Engineer</td>
+                  <td>Swift</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Microsoft</td>
+                  <td>Computer Scientist</td>
+                  <td>.NET</td>
+                </tr>
+                <tr class="grayrow">
+                  <td>3</td>
+                  <td>Amazon</td>
+                  <td>Dev Ops</td>
+                  <td>AWS</td>
+                </tr>
+              </table>
+        </div>
+        <footer>
+          <div>
+            Copyright Awesomeness 2018
+          </div>
+          </footer>
+      </div>
+      
+      
+
+
+  </body>
 </html>
